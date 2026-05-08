@@ -108,8 +108,8 @@ def plotar_patrimonio_total_por_tempo(patrimonio_inicial,
 
     patrimonio_por_tempo = (
         serie_antes +
-        serie_durante[:-2] +
-        serie_apos[1:]
+        serie_durante[:] +
+        serie_apos[:]
     )
     
     mes_fim_divida = mes_compra + num_parcelas +1
@@ -146,11 +146,11 @@ def plotar_patrimonio_total_por_tempo(patrimonio_inicial,
                 label=f'Começo da dívida: R$ {patrimonio_por_tempo[mes_compra]:.0f}')
 
     # fim da dívida
-    plt.plot(mes_fim_divida-3,
-                patrimonio_por_tempo[mes_fim_divida-3],
+    plt.plot(mes_fim_divida,
+                patrimonio_por_tempo[mes_fim_divida],
                 marker='v',
                 color='red',
-                label=f'Fim da dívida: R$ {patrimonio_por_tempo[mes_fim_divida-3]:.0f}')
+                label=f'Fim da dívida: R$ {patrimonio_por_tempo[mes_fim_divida-1]:.0f}')
 
     # final
     plt.plot(mes_final,
