@@ -331,11 +331,11 @@ def patrimonio_final_sem_endividamento(patrimonio_inicial,
                                        valor_manutencao,
                                        tempo_horizonte,
                                        preciacao_mensal):
-    aporte_efetivo = aporte_mensal_fixo + ganho_problema + valor_manutencao
+    aporte_efetivo_antes = aporte_mensal_fixo + valor_manutencao + valor_parcela
     
     # acumulo de patrimônio antes de comprar o Bem:
     patrimonio_disponivel_para_compra = patrimonio_puro(patrimonio_inicial, 
-                                                        aporte_efetivo, 
+                                                        aporte_efetivo_antes, 
                                                         rendimento_mensal, 
                                                         aumento_aporte_mensal, 
                                                         mes_compra-1)
