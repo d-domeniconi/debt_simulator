@@ -36,6 +36,7 @@ def plot_puro(patrimonio_inicial,
     plt.ylabel('Patrimônio (mil R$)', fontsize=15)
     plt.grid()
     plt.legend(fontsize=15)
+    #plt.savefig('figs/puro.png', dpi=300)
     plt.show()
 
 def plot_vantagem_aumento(patrimonio_inicial, 
@@ -92,6 +93,7 @@ def plot_vantagem_aumento(patrimonio_inicial,
     plt.ylabel('Patrimônio (mil R$)', fontsize=15)
     plt.legend(fontsize=15)
     plt.grid()
+    #plt.savefig('figs/comparacao.png', dpi=300)
     plt.show()
 
 def plot_in_debt_buy(patrimonio_inicial, 
@@ -216,6 +218,7 @@ def plot_in_debt_buy(patrimonio_inicial,
     plt.ticklabel_format(style='plain', axis='y')
     plt.legend(fontsize=20)
     plt.grid()
+    #plt.savefig('figs/debt.png', dpi=300)
     plt.show()
 
 def plot_in_full_buy(patrimonio_inicial, 
@@ -295,6 +298,7 @@ def plot_in_full_buy(patrimonio_inicial,
     plt.ticklabel_format(style='plain', axis='y')
     plt.legend(fontsize=20)
     plt.grid()
+    #plt.savefig('figs/full.png', dpi=300)
     plt.show()
 
 def plot_in_full_versus_in_debt(
@@ -562,6 +566,7 @@ def plot_in_full_versus_in_debt(
     plt.ticklabel_format(style='plain', axis='y')
     plt.legend(fontsize=20)
     plt.grid()
+    #plt.savefig('figs/full_v_debt.png', dpi=300)
     plt.show()
 
     return None
