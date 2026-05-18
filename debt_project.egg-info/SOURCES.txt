@@ -1,9 +1,0 @@
-setup.py
-debt_project.egg-info/PKG-INFO
-debt_project.egg-info/SOURCES.txt
-debt_project.egg-info/dependency_links.txt
-debt_project.egg-info/top_level.txt
-scr/__init__.py
-scr/equity.py
-scr/loan.py
-scr/vis.py
