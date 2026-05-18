@@ -84,7 +84,7 @@ OBS: each effective rate is defined as $(1+rate)$
 Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/debt_simulator.git
+git clone https://github.com/d-domeniconi/debt_simulator.git
 cd debt_simulator
 ```
 
