@@ -98,9 +98,8 @@ pip install -r requirements.txt
 
 The notebook can also be executed directly in Google Colab without local installation:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
-https://github.com/d-domeniconi/debt_simulator/blob/main/colab_notebook.ipynb
-)
+[[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](
+https://colab.research.google.com/github/d-domeniconi/debt_simulator/blob/main/debt_simulator.ipynb)
 
 ## Example Usage
 
